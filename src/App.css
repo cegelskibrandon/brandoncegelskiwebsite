@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.content{
+  padding: 30px;
+}
+
+.anchor{
+  display: block;
+  position: relative;
+  visibility: hidden;
+
+  top: -86px;
+}
+
+.coloring{
+  color: black;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button2 {
+  width: 40%;
+}
